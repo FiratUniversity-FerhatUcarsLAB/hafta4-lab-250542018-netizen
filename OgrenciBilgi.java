@@ -1,60 +1,50 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [Akın Ağaçbacak]
+ * Ogrenci No: [250542018]
+ * Tarih: [30/10/2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
  * duzenli bir formatta ekrana yazdirir.
- * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
  */
 
 import java.util.Scanner;
 
-public class OgrenciBilgi {
+public class OgrenciBilgiSistemi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
+
+        Scanner input = new Scanner(System.in);
+
+        //Değişkenler
+        String ad , soyad;
+        int yas, ogrenciNo;
+        double gpa;
+
         System.out.println("=== OGRENCI BILGI SISTEMI ===");
         System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
+        //Kullanıcı Bilgileri
+        System.out.print("Adınız :");
+        ad = input.nextLine();
+        System.out.print("Soyadınız :");
+        soyad = input.nextLine();
+        System.out.print("yaşınız:");
+        yas = input.nextInt();
+        System.out.print("ogrenciNo:");
+        ogrenciNo = input.nextInt();
+        System.out.print("GPA:");
+        gpa = input.nextDouble();
+
+        System.out.println("=== OGRENCI BILGI SISTEMI ===");
+        System.out.println();
+
+        //Çıktılar
+        System.out.printf("Ad Soyad: %s %s\n", ad, soyad);
+        System.out.printf("Ogrenci No: %d\n", ogrenciNo);
+        System.out.printf("Yaş: %d\n", yas);
+        System.out.printf("GPA: %.2f\n", gpa);
+        System.out.println("Durum: İyi Ogrenci");
+
+
     }
 }
