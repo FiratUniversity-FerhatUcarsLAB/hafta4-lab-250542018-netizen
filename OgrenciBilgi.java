@@ -28,9 +28,9 @@ public class OgrenciBilgiSistemi {
         ad = input.nextLine();
         System.out.print("Soyadınız :");
         soyad = input.nextLine();
-        System.out.print("yaşınız:");
+        System.out.print("Yaşınız:");
         yas = input.nextInt();
-        System.out.print("ogrenciNo:");
+        System.out.print("Ogrenci No:");
         ogrenciNo = input.nextInt();
         System.out.print("GPA:");
         gpa = input.nextDouble();
