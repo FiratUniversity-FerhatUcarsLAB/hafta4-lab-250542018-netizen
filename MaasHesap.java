@@ -86,6 +86,7 @@ public class MaasHesap {
 
         System.out.print("\n=====================================");
 
+        input.close();
 
     }
 }
