@@ -40,6 +40,7 @@ public class GeometrikHesap {
         System.out.printf("Kure Hacmi : %.2f cm^3\n", kureHacmi);
         System.out.printf("Kure Yuzey Alani : %.2f cm^2\n", kureyuzeyAlani);
 
+        input.close();
 
 
     }
