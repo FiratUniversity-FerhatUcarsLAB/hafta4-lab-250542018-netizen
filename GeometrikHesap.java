@@ -2,10 +2,10 @@
  * Ad Soyad: [Akın Ağaçbacak]
  * Ogrenci No: [250542018]
  * Tarih: [31/10/2025]
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * Aciklama: Gorev 2 - Geometrik Hesaplayıcı
  * 
- * Bu program kullanicidan ogrenci bilgilerini alir ve
- * duzenli bir formatta ekrana yazdirir.
+ * Bu program kullanicidan aldığı yarıçapı kullanarak 
+ * daire alanı , daire cevresi gibi hesaplamaları yapar.
  */
 
 import java.util.Scanner;
