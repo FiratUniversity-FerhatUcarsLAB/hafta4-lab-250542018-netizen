@@ -2,10 +2,10 @@
  * Ad Soyad: [Akın Ağaçbacak]
  * Ogrenci No: [250542018]
  * Tarih: [31/10/2025]
- * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
+ * Aciklama: Gorev 3 -  Maaş Hesaplama Sistemi
  * 
- * Bu program kullanicidan ogrenci bilgilerini alir ve
- * duzenli bir formatta ekrana yazdirir.
+ * Bu Java programı, kullanıcıdan alınan brüt maaş, haftalık çalışma ve mesai saati bilgilerine dayanarak bir çalışanın detaylı maaş bordrosunu hesaplar.
+ * Program, toplam geliri, SGK, gelir vergisi gibi yasal kesintileri ve mesai ücretini hesaplayıp, en sonunda çalışanın net maaşını formatlanmış bir çıktı olarak ekrana yazdırır.
  */
 
 import java.util.Scanner;
