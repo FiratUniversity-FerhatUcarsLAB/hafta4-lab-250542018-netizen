@@ -45,6 +45,7 @@ public class OgrenciBilgiSistemi {
         System.out.printf("GPA: %.2f\n", gpa);
         System.out.println("Durum: İyi Ogrenci");
 
+        input.close();
 
     }
 }
