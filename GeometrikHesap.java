@@ -1,7 +1,7 @@
 /*
  * Ad Soyad: [Akın Ağaçbacak]
  * Ogrenci No: [250542018]
- * Tarih: [30/10/2025]
+ * Tarih: [31/10/2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
